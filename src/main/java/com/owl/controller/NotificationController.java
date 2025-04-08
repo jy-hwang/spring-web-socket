@@ -17,12 +17,12 @@ public class NotificationController {
   public String webSocket() {
     return "webSocket";
   }
-  
+
   @GetMapping("webChat")
   public String webChat() {
     return "webChat";
   }
-  
+
   @GetMapping("webChatUI")
   public String webChatUI() {
     return "webChatUI";

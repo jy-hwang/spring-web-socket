@@ -51,8 +51,7 @@
 			var msg;
 
 			writeResponse(event.data);
-
-			if (content = "") {
+			if (content == "") {
 
 			} else {
 				if (content.match("/")) {
@@ -108,8 +107,8 @@
 		}
 	</script>
 	<div class="container">
-		<input type="hid den" id="chat_id" value="${param.chat_id }" /> <input
-			type="hid den" id="chat_room" value="${param.chat_room }" />
+		<input type="hidden" id="chat_id" value="${param.chat_id }" />
+		<input type="hidden" id="chat_room" value="${param.chat_room }" />
 		<table class="table table-bordered">
 			<tr>
 				<td>방명:</td>
